@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+    </head>  
+    <body bgcolor="#D09989"> 
+        <table width="100%" border="0px">
+            <tr bgcolor="#6B81A2" align="CENTER" >
+                <td width="20%"><h3 fontcolor="blue"><a href="index.html">Home</a></h3></td>
+                <td><h3><a href="Estilosarquiterctónicos.html">Estilos Arquiterctónicos</a></h3></td>
+                <td><h3><a href="Mejoresedificios.html">Maravillas Arquitectónicas</a></h3></td>
+                <td><h3><a href="Ingresar.html">Ingresar</a></h3></td>  
+            </tr>
+        </table>
+        <h1 align="CENTER">Ingresar</h1>
+        <table width="100%">
+            <tr>
+                <td width="25%"></td>
+                <td>
+                <form method="POST">
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="nombre"><h2>Escriba su Nombre:</h2></label>
+                                    <input type="text" name="nombre" id="nombre" required size="30">
+                                </td>
+                                <td width="30%"></td>
+                                <td>
+                                    <label for="apellido"><h2>Escriba su Apellido:</h2></label>
+                                    <input type="text" name="apellido" id="apellido" required size="30">
+                                </td>
+                            </tr>
+                        </table>
+                        <label for="usuario"><h2>Ingresar Correo:</h2></label><br>
+                        <input type="text" name="usuario" id="usuario"required size="50"> 
+                        <label for="contraseña"><h2>Ingresar Contraseña:</h2></label><br>
+                        <input type="password" name="contraseña" id="contraseña"required size="50">
+                        <label for="sexo"><h2>Sexo:</h2></label>
+                        <input type="radio" name="sexo" id="masculino" value="1"required>
+                        <label for="masculino">Masculino:</label><br>
+                        <input type="radio" name="sexo" id="femenino" value="2" required>
+                        <label for="femenino">Femenino:</label>
+                        <label for="nacimiento"><h2>Fecha de Nacimiento:</h2></label>
+                        <input type="date" name="nacimiento" id="nacimiento" required><br><br>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        
+    </body>
+    
+</html>
